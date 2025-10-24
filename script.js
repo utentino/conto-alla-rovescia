@@ -3,7 +3,7 @@
 // NOTA: "Ottobre" è il mese 9 (perché Gennaio è 0)
 // new Date(ANNO, MESE, GIORNO, ORA, MINUTI, SECONDI)
 // Per il 27 Ottobre alle 18:00
-const targetDate = new Date(2025, 9, 27, 18, 0, 0).getTime();
+const targetDate = new Date(2025, 9, 24, 22, 21, 0).getTime();
 // ------------------------------------
 
 // Se vuoi un'altra data, ad esempio il 31 Dicembre 2025 a mezzanotte:
