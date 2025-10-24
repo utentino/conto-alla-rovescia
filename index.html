@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conto alla Rovescia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scanlines"></div> <div class="container">
+        
+        <h1 class="title flicker">QUALCOSA STA ARRIVANDO</h1>
+        
+        <div id="countdown-container">
+            <div class="time-box">
+                <span id="days" class="time-value">00</span>
+                <span class="time-label">Giorni</span>
+            </div>
+            <div class="time-box">
+                <span id="hours" class="time-value">00</span>
+                <span class="time-label">Ore</span>
+            </div>
+            <div class="time-box">
+                <span id="minutes" class="time-value">00</span>
+                <span class="time-label">Minuti</span>
+            </div>
+            <div class="time-box">
+                <span id="seconds" class="time-value">00</span>
+                <span class="time-label">Secondi</span>
+            </div>
+        </div>
+        
+        <div id="message-container" class="hidden">
+            <h1 class="flicker">È IL MOMENTO!</h1>
+            <p>Grazie per aver atteso. Ora si fa sul serio!</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
